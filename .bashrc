@@ -96,7 +96,7 @@ if [ "$color_prompt" = yes ]; then
     if [[ ${EUID} == 0 ]] ; then
         PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\h\[\033[01;34m\]:\W\[\033[00m\]\$ '
     else
-        PS1="${debian_chroot:+($debian_chroot)}\[$bldgrn\]\u@\h\[$txtred\]-\[$bldblu\]\w\[$txtpur\]\$(__git_ps1)\[$txtwht\]\$ "
+        PS1="${debian_chroot:+($debian_chroot)}\[$bldgrn\]\u@\h\[$txtred\]:\[$bldblu\]\w\[$txtpur\]\$(__git_ps1)\[$txtwht\]\$ "
     fi
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
