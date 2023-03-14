@@ -18,8 +18,8 @@ HISTCONTROL=ignoreboth:erasedups
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=2000
-HISTFILESIZE=4000
+HISTSIZE=4000
+HISTFILESIZE=8000
 
 export FZF_DEFAULT_COMMAND="rg --files --no-ignore-vcs"
 
