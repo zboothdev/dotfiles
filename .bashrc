@@ -146,6 +146,10 @@ fi
 
 alias lg='lazygit'
 
+# This is to fix an issue with opening vim on a ssh session inside of tmux (tmux->ssh->vim).
+# This is because tmux sets TERM to tmux-256color which can break vim while ssh'd in.
+alias ssh="TERM=xterm-256color \ssh"
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).
