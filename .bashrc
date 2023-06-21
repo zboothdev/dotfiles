@@ -162,3 +162,9 @@ if ! shopt -oq posix; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+export ATUIN_NOBIND="true"
+eval "$(atuin init bash)"
+# bind to ctrl-r, add any other bindings you want here too
+bind -x '"\C-r": __atuin_history'
