@@ -1,0 +1,10 @@
+.cache/
+.config/evolution/
+.config/google-chrome/
+.config/joplin-desktop/
+.config/Joplin/
+.mozilla/
+.local/
+Downloads/
+Documents/
+snap/
