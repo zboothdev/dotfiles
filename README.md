@@ -1,3 +1,3 @@
 # yadm dotfiles
 
-See instalation instructions at https://yadm.io/docs/install
+See installation instructions at https://yadm.io/docs/install
