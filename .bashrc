@@ -162,6 +162,7 @@ if ! shopt -oq posix; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+[ -f /usr/share/doc/fzf/examples/key-bindings.bash ] && source /usr/share/doc/fzf/examples/key-bindings.bash
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
 export ATUIN_NOBIND="true"
